@@ -5,7 +5,9 @@ $file = $_GET['file'];
 $type = $_GET['type'];
 
 setcookie($name, $file . ':' . $type . ':' . time());
-header('Content-Type: ' . $type);
-header('Content-Length: ' . filesize($file));
 
+header('Content-Type: ' . $type);
+
+$file = 'images/' . $file;
+header('Content-Length: ' . filesize($file));
 readfile($file);
