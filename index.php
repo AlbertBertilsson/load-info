@@ -11,15 +11,18 @@
 
 <table id="cookie">
 </table>
+<?php
+echo $_SERVER['HTTP_USER_AGENT'];
+?>
 </div>
 
 <div>
 <img src="file.php?name=m&file=mammut.jpg&type=image/jpeg">
-<img src="./IC test_files/mammut(1).jpg">
-<img src="./IC test_files/alphatest.png">
-<img src="./IC test_files/alphatest(1).png">
-<img src="./IC test_files/room.jpg">
-<img src="./IC test_files/room(1).jpg">
+<img src="file.php?name=m2&file=mammut_s.jpg&type=image/jpeg">
+<img src="file.php?name=m3&file=alphatest.png&type=image/png">
+<img src="file.php?name=m4&file=alphatest_s.png&type=image/png">
+<img src="file.php?name=m5&file=room.jpg&type=image/jpeg">
+<img src="file.php?name=m6&file=room_s.jpg&type=image/jpeg">
 </div>
 
 <br><br>
@@ -76,7 +79,7 @@
       var pa = c.split(/=|:/)
       res += '<tr>';
       for (var j = 0 ; j < pa.length ; j++) {
-        res += '<td>' + pa[j] + '</td>';
+        res += '<td>' + pa[j].trim() + '</td>';
       }
       res += '</tr>';
     }
