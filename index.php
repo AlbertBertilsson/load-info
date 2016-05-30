@@ -21,7 +21,7 @@ echo $_SERVER['HTTP_USER_AGENT'];
 <img src="images/mammut_s.jpg">
 <img src="file.php?name=m2&file=alphatest.png&type=image/png">
 <img src="images/alphatest_s.png">
-<img src="room_s.jpg">
+<img src="images/room_s.jpg">
 <img src="file.php?name=m3&file=room.jpg&type=image/jpeg">
 </div>
 
