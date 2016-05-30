@@ -8,6 +8,9 @@
 * mammut.jpg 7.98KB 8176 bytes<br>
 * alphatest.png 25,9KB 26529 bytes<br>
 * room.jpg 483KB 494782 bytes<br>
+
+<div id="cookie">
+</div>
 </div>
 
 <div>
@@ -66,7 +69,7 @@
 
 <script>
   window.onload = function displayCookies() {
-    alert('hej');
+    document.getElementById('cookie').innerHTML = document.cookie;
   }
 </script>
 </body></html>
