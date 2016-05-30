@@ -21,19 +21,19 @@ echo $_SERVER['HTTP_USER_AGENT'];
 <img src="images/mammut_s.jpg">
 <img src="file.php?name=m2&file=alphatest.png&type=image/png">
 <img src="images/alphatest_s.png">
-<img src="file.php?name=m3&file=room.jpg&type=image/jpeg">
 <img src="room_s.jpg">
+<img src="file.php?name=m3&file=room.jpg&type=image/jpeg">
 </div>
 
 <br><br>
 <h1>Grey background, force webp (test browser compatibility), Android &amp; Chrome</h1>
 <div style="background-color: #888">
-<img src="./IC test_files/mammut(2).jpg">
-<img src="./IC test_files/mammut(3).jpg">
-<img src="./IC test_files/alphatest(2).png">
-<img src="./IC test_files/alphatest(3).png">
-<img src="./IC test_files/room(2).jpg">
-<img src="./IC test_files/room(3).jpg">
+<img src="images/mammut.webp">
+<img src="images/mammut_s.webp">
+<img src="images/alphatest.webp">
+<img src="images/alphatest_s.webp">
+<img src="images/room_s.webp">
+<img src="images/room.webp">
 </div>
 
 <br><br>
@@ -43,8 +43,8 @@ echo $_SERVER['HTTP_USER_AGENT'];
 <img src="./IC test_files/mammut(5).jpg">
 <img src="./IC test_files/alphatest(4).png">
 <img src="./IC test_files/alphatest(5).png">
-<img src="./IC test_files/room(4).jpg">
 <img src="./IC test_files/room(5).jpg">
+<img src="./IC test_files/room(4).jpg">
 </div>
 
 <br><br>
@@ -54,8 +54,8 @@ echo $_SERVER['HTTP_USER_AGENT'];
 <img src="./IC test_files/mammut(7).jpg">
 <img src="./IC test_files/alphatest(6).png">
 <img src="./IC test_files/alphatest(7).png">
-<img src="./IC test_files/room(6).jpg">
 <img src="./IC test_files/room(7).jpg">
+<img src="./IC test_files/room(6).jpg">
 </div>
 
 
