@@ -11,7 +11,7 @@
 </div>
 
 <div>
-<img src="./IC test_files/mammut.jpg">
+<img src="file.php?name=m&file=mammut.jpg&type=image/jpeg">
 <img src="./IC test_files/mammut(1).jpg">
 <img src="./IC test_files/alphatest.png">
 <img src="./IC test_files/alphatest(1).png">
@@ -64,5 +64,9 @@
 </div>
 
 
-
+<script>
+  window.onload = function displayCookies() {
+    alert('hej');
+  }
+</script>
 </body></html>
