@@ -1,9 +1,11 @@
 <?php
 
-//echo $_GET['file'];
-$file = 'images/mammut.jpg';
+$name = $_GET['name'];
+$file = $_GET['file'];
+$type = $_GET['type'];
 
-header('Content-Type: image/jpeg');
+setcookie($name, $file . ':' . $type . ':' . time());
+header('Content-Type: ' . $type);
 header('Content-Length: ' . filesize($file));
 
 readfile($file);
