@@ -39,23 +39,23 @@ echo $_SERVER['HTTP_USER_AGENT'];
 <br><br>
 <h1>Grey background, force JPEG2000 (test browser compatibility), Safari (OS X &amp; iOS)</h1>
 <div style="background-color: #888">
-<img src="./IC test_files/mammut(4).jpg">
-<img src="./IC test_files/mammut(5).jpg">
-<img src="./IC test_files/alphatest(4).png">
-<img src="./IC test_files/alphatest(5).png">
-<img src="./IC test_files/room(5).jpg">
-<img src="./IC test_files/room(4).jpg">
+<img src="images/mammut.jp2">
+<img src="images/mammut_s.jp2">
+<img src="images/alphatest.jp2">
+<img src="images/alphatest_s.jp2">
+<img src="images/room_s.jp2">
+<img src="images/room.jp2">
 </div>
 
 <br><br>
 <h1>Grey background, force JPEG XR (test browser compatibility), IE 9 &amp; 11 &amp; Edge</h1>
 <div style="background-color: #888">
-<img src="./IC test_files/mammut(6).jxr">
-<img src="./IC test_files/mammut(7).jpg">
-<img src="./IC test_files/alphatest(6).png">
-<img src="./IC test_files/alphatest(7).png">
-<img src="./IC test_files/room(7).jpg">
-<img src="./IC test_files/room(6).jpg">
+<img src="images/mammut.jxr">
+<img src="images/mammut_s.jxr">
+<img src="images/alphatest.jxr">
+<img src="images/alphatest_s.jxr">
+<img src="images/room_s.jxr">
+<img src="images/room.jxr">
 </div>
 
 
