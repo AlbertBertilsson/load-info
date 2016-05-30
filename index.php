@@ -18,22 +18,11 @@ echo $_SERVER['HTTP_USER_AGENT'];
 
 <div>
 <img src="file.php?name=m&file=mammut.jpg&type=image/jpeg">
-<img src="file.php?name=m2&file=mammut_s.jpg&type=image/jpeg">
-<img src="file.php?name=m3&file=alphatest.png&type=image/png">
-<img src="file.php?name=m4&file=alphatest_s.png&type=image/png">
-<img src="file.php?name=m5&file=room.jpg&type=image/jpeg">
-<img src="file.php?name=m6&file=room_s.jpg&type=image/jpeg">
-</div>
-
-<br><br>
-<h1>Black background (test PNG transparency)</h1>
-<div style="background-color: #000">
-<img src="./IC test_files/mammut.jpg">
-<img src="./IC test_files/mammut(1).jpg">
-<img src="./IC test_files/alphatest.png">
-<img src="./IC test_files/alphatest(1).png">
-<img src="./IC test_files/room.jpg">
-<img src="./IC test_files/room(1).jpg">
+<img src="images/mammut_s.jpg">
+<img src="file.php?name=m2&file=alphatest.png&type=image/png">
+<img src="images/alphatest_s.png">
+<img src="file.php?name=m3&file=room.jpg&type=image/jpeg">
+<img src="room_s.jpg">
 </div>
 
 <br><br>
