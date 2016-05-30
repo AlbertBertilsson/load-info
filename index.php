@@ -9,8 +9,8 @@
 * alphatest.png 25,9KB 26529 bytes<br>
 * room.jpg 483KB 494782 bytes<br>
 
-<div id="cookie">
-</div>
+<table id="cookie">
+</table>
 </div>
 
 <div>
@@ -71,9 +71,14 @@
   window.onload = function displayCookies() {
     res = '';
     var ca = document.cookie.split(';');
-    for(var i = 0; i < ca.length; i++) {
+    for(var i = 0; i < ca.length ; i++) {
       var c = decodeURIComponent(ca[i]);
-      res += c + '<br>';
+      var pa = c.split(/=|:/)
+      res += '<tr>';
+      for (var j = 0 ; j < pa.length ; j++) {
+        res += '<td>' + pa[j] + '</td>';
+      }
+      res += '</tr>';
     }
     document.getElementById('cookie').innerHTML = res;
   }
