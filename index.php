@@ -69,7 +69,13 @@
 
 <script>
   window.onload = function displayCookies() {
-    document.getElementById('cookie').innerHTML = document.cookie;
+    res = '';
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = decodeURIComponent(ca[i]);
+      res += c + '<br>';
+    }
+    document.getElementById('cookie').innerHTML = res;
   }
 </script>
 </body></html>
