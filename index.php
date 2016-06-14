@@ -18,7 +18,7 @@ if (preg_match("/image\/webp/i", $_SERVER['HTTP_ACCEPT'])) {
     echo "<h2>WEBP!</h2>";
 }
 
-if (preg_match("/ \((iPhone|iPad); CPU (iPhone|iPad|) ?OS (8|9)_/", $_SERVER['HTTP_USER_AGENT'])) {
+if (preg_match("/ \((iPhone|iPad); CPU (iPhone|iPad|) ?OS (8|9|\d\d)_/", $_SERVER['HTTP_USER_AGENT'])) {
     echo "<h2>J2!</h2>";
 }
 ?>
