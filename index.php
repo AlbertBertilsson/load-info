@@ -12,7 +12,10 @@
 <table id="cookie">
 </table>
 <?php
-echo $_SERVER['HTTP_USER_AGENT'];
+echo $_SERVER['HTTP_USER_AGENT'] . '<br>';
+if (preg_match("/image\/webp/i", $_SERVER['HTTP_ACCEPT'])) {
+    echo "<h2>WEBP!</h2>";
+}
 ?>
 </div>
 
